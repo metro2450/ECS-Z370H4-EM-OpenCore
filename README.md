@@ -4,10 +4,13 @@ Files to install MacOS Catalina on ECS Z370H4-EM with OpenCore Bootloader
 
 ## Introduction
 
+![MEDION® AKOYA® P40000 MD34045](https://aldi.medion.com/md34045/au/_img/teaser5.jpg)
+
 This efi config was done on my<br>
-ALDI PC February 2018 MEDION® AKOYA® P40000 MD 34045<br>
+ALDI PC February 2018 MEDION® AKOYA® P40000 MD34045<br>
 with<br>
-Intel® Core™ i3-8100 processor
+Intel® Core™ i3-8100 processor<br>
+  
 
 
 As per Medion AG, these following Machines shipped with this Motherboard:<br>
