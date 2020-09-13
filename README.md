@@ -1,6 +1,6 @@
 # ECS-Z370H4-EM-OpenCore
 
-Files to install MacOS Catalina on ECS Z370H4-EM with OpenCore Bootloader
+Files to install macOS Catalina on ECS Z370H4-EM with OpenCore Bootloader
 
 ## Introduction
 
