@@ -11,7 +11,19 @@ ALDI PC February 2018 MEDION® AKOYA® P40000 MD34045<br>
 with<br>
 Intel® Core™ i3-8100 processor<br>
   
+## BIOS Settings
+SATA Mode=>AHCI<br>
+Legacy USB=>Disable<br>
+OS=>Win10<br>
+CSM=>Disable(UEFI Only)<br>
+Also need [this tool](https://github.com/datasone/grub-mod-setup_var/releases/latest) to unlock MSR CFG<br>
 
+issue these commands:<br>
+setup_var_3 0x527 0x0<br>
+setup_var_3 0x7EC 0x0<br>
+
+Follow [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html#downloading-macos)to make your Catalina Installer USB<br>
+Use the EFI folder from this repository instead to save your time:-)<br>
 
 As per Medion AG, these following Machines shipped with this Motherboard:<br>
 10022077 MEDION AKOYA P67001 (MD 34049) / C605<br>
